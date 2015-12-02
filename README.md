@@ -1,4 +1,4 @@
-# bcashe
+# bcache
 Golang small cache library
 
 ## Use
@@ -8,7 +8,7 @@ package main
 
 import (
     "fmt"
-    "github.com/mirrr/bcashe"
+    "github.com/mirrr/bcache"
     "time"
 )
 
@@ -35,7 +35,7 @@ func main() {
 \* Any key kept in cache no longer than a second. Byt upon receipt of the value life time is extended for a second. 
 
 ## Documentation
-[Docs on godoc.org](https://godoc.org/github.com/mirrr/bcashe)
+[Docs on godoc.org](https://godoc.org/github.com/mirrr/bcache)
 
 
 ## License
